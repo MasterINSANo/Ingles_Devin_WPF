@@ -1,8 +1,6 @@
-//Casting
+//Expressions - Assignment Operators
 
-var areaCode = 219;
-var firstPart = 869;
-var secPart = 6126;
-//(219) 203-6126
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" +  String(secPart);
-console.log(phoneNo);
+var a = 3;
+a ++; //a = a + 1 // a =+ 1
+a--; //a = a - 1 // a -=1
+console.log(a);
