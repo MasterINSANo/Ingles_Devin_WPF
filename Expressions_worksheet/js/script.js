@@ -1,8 +1,12 @@
 //Expression Worksheet
 
-//Dog Years
-var humanToDog = 7; //change variable
-var sparky = prompt("How old is Sparky"); //input to find out Sparky's human age
-var total = humanToDog * sparky; //calculates the human age of sparky to his actual age in dog years
-alert("Sparky is " + sparky + " human years old which is " + total + " in dog years"); //answer to how old sparky is in dog years
-console.log(total); //checking answer
+//Slice of Pie Part 1
+
+var slice = prompt("how many slices of pizza per box?"); //enter in how many slices are in the box
+var people = prompt("how many people are at the party?"); //tell how many people were at the party
+var order = prompt("how many pizza's were ordered?"); //how many pizzas were ordered
+
+var total = slice * order / people; //total of slices per person
+
+alert("Each person ate " + total + " slices of pizza at the party");
+console.log(total);
