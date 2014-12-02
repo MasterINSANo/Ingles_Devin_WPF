@@ -1,11 +1,17 @@
 //Expression Worksheet
 
-//Average shopping Bill
+//Discounts
 
-var shopping = [187.32, 145.19, 165.97, 172.11, 183.69]; //5 random totals off my head
-alert("My 5 week shopping totals: "  + shopping); //alert showing the 5 weeks
-var total = shopping [0] + shopping [1] + shopping [2] + shopping [3] + shopping [4]; //Total of the 5 weeks added together
+var item = "Mt. Dew"; //You can't have to much Mt. Dew
 
-var avg = total / 5; //Average = total divided by 5
+var price = 19.99; //Not really the price, but I liked how it worked
 
-alert("You have spent a total of $" + total + " on groceries over 5 weeks. \nThat is an average of $" + avg + " per week"); //End game! The answer for both total and average.
+var discount = .15; //random # discount I picked
+
+var salesTax = .07; //Indiana sales Tax
+
+var totalNoTax = price - price * discount; //took a few different times before I got it, but I got the math down right
+
+var totalTax = totalNoTax + totalNoTax * salesTax; //this one worked the first time.
+
+alert("Your " + item + " was originally $" + price + ", but after a " + discount + "% discount, it is now $" + totalNoTax + " without tax, and $" + totalTax + " with tax.") //This took me a bit with spacing everything correctly.
