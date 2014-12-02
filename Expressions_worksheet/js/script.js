@@ -1,10 +1,11 @@
 //Expression Worksheet
 
-//Slice of Pie Part 2
+//Average shopping Bill
 
-var slice = prompt("how many slices of pizza per box?"); //enter in how many slices are in the box
-var people = prompt("how many people are at the party?"); //tell how many people were at the party
-var order = prompt("how many pizza's were ordered?"); //how many pizzas were ordered
-var total = slice * order % people; //total of slices per person with the remainder going to sparky
+var shopping = [187.32, 145.19, 165.97, 172.11, 183.69]; //5 random totals off my head
+alert("My 5 week shopping totals: "  + shopping); //alert showing the 5 weeks
+var total = shopping [0] + shopping [1] + shopping [2] + shopping [3] + shopping [4]; //Total of the 5 weeks added together
 
-alert("Sparky got " + total + " slices of pizza");
+var avg = total / 5; //Average = total divided by 5
+
+alert("You have spent a total of $" + total + " on groceries over 5 weeks. \nThat is an average of $" + avg + " per week"); //End game! The answer for both total and average.
