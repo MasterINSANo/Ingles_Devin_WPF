@@ -13,10 +13,10 @@ console.log(avg);
 
 alert("I make on average $129.75 in tips working four nights in two weeks.\n Enter your own tips for four nights work to find your four night average"); // Asking question to start interaction
 
-var nightOne = prompt("How much did you make on the first night?");
+var nightOne = prompt(How much did you make on the first night?);
 
-var nightTwo = prompt("How much did you make on night two?");
+var nightTwo = prompt(How much did you make on night two?);
 
-var yourTotal = nightOne + nightTwo;
+var yourTotal = nightOne + + nightTwo;
 
 console.log(yourTotal);
