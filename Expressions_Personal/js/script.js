@@ -11,5 +11,6 @@ var avg = total / 4; //taking the total and dividing by 4
 
 console.log(avg)
 
-alert("I make on average $129.75 in tips working two nights a week. What would I make if there was no holiday season, and it was slower?") // Asking question to start interaction
+alert("I make on average $129.75 in tips working two nights a week. How") // Asking question to start interaction
 
+var nightOne = prompt("How much did you make on the first night?")
