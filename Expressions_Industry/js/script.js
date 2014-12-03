@@ -12,6 +12,8 @@ var insurance = 129.99; //if both phones bought insurance full profit of 129.99
 
 var total = smartPhone + basicPhone + insurance * 2; //Both phones adding insurance, then adding total together
 
+alert(" I have made a total of $" + total + " from all my commission sales."); //added line to give correct total
+
 console.log("I made a total of $" + total + "."); //Printing my work on console to double check total
 
 var commission = total * .08; //taking the total and multiplying by .08 to get answer
