@@ -41,5 +41,11 @@ console.log("the answer is " + total + " apples subtracted by bananas.");
 
 alert("Now subtract the " + apple + " apples to the " + banana + " bananas.");
 
+alert(+ total + "...You don't eat enough Vegetables!\n Ok here is the thing that will hurt your eyes!!");
+alert("          ");
+alert("The answer in life is 42.");
 
+alert("What? it took me " + compAge + " years to figure that out. You try staring into a computer screen for " + compAge + " years!");
+
+alert("I still do not trust that you are " + yearBorn + " years old, but I am just a browser.\n You argued with a browser, just remember that.\n Have a good day!");
 
