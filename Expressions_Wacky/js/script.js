@@ -34,3 +34,12 @@ alert("     ");
 
 yesYes = prompt("If you still want to see, Type, Yes Master Computer, and hit ok and I will let you see!");
 
+apple = prompt("How many apples do you eat monthly?");
+banana = prompt("How many banana's do you eat monthly?");
+total = apple - banana;
+console.log("the answer is " + total + " apples subtracted by bananas.");
+
+alert("Now subtract the " + apple + " apples to the " + banana + " bananas.");
+
+
+
