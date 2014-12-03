@@ -9,8 +9,14 @@ var total = tips[0] + tips[1] + tips[2] + tips[3]; //taking the 4 nights in the 
 
 var avg = total / 4; //taking the total and dividing by 4
 
-console.log(avg)
+console.log(avg);
 
-alert("I make on average $129.75 in tips working four nights in two weeks. Enter your own tips for four nights work \n to find your four night average") // Asking question to start interaction
+alert("I make on average $129.75 in tips working four nights in two weeks.\n Enter your own tips for four nights work to find your four night average"); // Asking question to start interaction
 
-var nightOne = prompt("How much did you make on the first night?")
+var nightOne = prompt("How much did you make on the first night?");
+
+var nightTwo = prompt("How much did you make on night two?");
+
+var yourTotal = nightOne + nightTwo;
+
+console.log(yourTotal);
