@@ -5,6 +5,7 @@
 
 var tips = [37, 160, 163, 159];
 
-var total = tips[0] + tips[1] + tips[2] + tips[3] / 4;
+var total = tips[0] + tips[1] + tips[2] + tips[3];
+
 
 console.log(total);
