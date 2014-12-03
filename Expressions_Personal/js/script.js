@@ -5,7 +5,7 @@
 
 var tips = [37, 160, 163, 159]; //I work 2 nights a week
 
-alert("If I made $" + tips + " in four nights that I worked, what is the average that I made?"); //doing a follow by doing math problem
+alert("If I made $" + tips + " in tips, in four nights in two weeks that I worked, what is the average that I made?"); //doing a follow by doing math problem
 
 var total = tips[0] + tips[1] + tips[2] + tips[3]; //taking the 4 nights in the last two weeks
 
