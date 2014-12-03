@@ -9,7 +9,7 @@ alert("If I made " + tips + " in tips, in four nights in two weeks that I worked
 
 var total = tips[0] + tips[1] + tips[2] + tips[3]; //adding the 4 nights in the last two weeks
 
-alert("Add the total of the four different tips made \n Then divide by the number of nights I worked.");
+alert("Add the total of the four different tips made \n Then divide by the number of nights I worked."); //explaining formula
 
 var avg = total / 4; //taking the total and dividing by 4
 
@@ -19,13 +19,13 @@ alert("Correct!!\n I made on average $129.75 in tips working four nights in two 
 
 var yourTip = [100, 67, 83, 75]; //the equation that I made
 
-var yourTipTotal = yourTip [0] + yourTip[1] + yourTip[2] + yourTip[3]; //
+var yourTipTotal = yourTip [0] + yourTip[1] + yourTip[2] + yourTip[3]; //adding my math together
 
-var yourTipAvg = yourTipTotal /4;
+var yourTipAvg = yourTipTotal /4; //dividing total of 4 numbers by 4
 
-console.log(yourTipAvg);
+console.log(yourTipAvg); //checking math
 
-alert("Remember, add the four numbers then divide by how many numbers there are.");
+alert("Remember, add the four numbers then divide by how many numbers there are."); //reminding user of math formula
 
-alert("Correct! \n If your answer was " + yourTipAvg + ", then you were correct!\n Math is Fun!");
+alert("Correct! \n If your answer was " + yourTipAvg + ", then you were correct!\n Math is Fun!"); //giving the answer, making math fun!!
 
