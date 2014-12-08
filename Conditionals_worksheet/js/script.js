@@ -1,15 +1,16 @@
-//Devin Ingles 12/07/14 Conditionals_Worksheet - Expressions with Conditionals - Celsius to Fahrenheit converter
+//Devin Ingles 12/07/14 Conditionals_Worksheet - Multiple Results - Check the Login
 
-var number = prompt("Please enter in the temperature.")
-//the numerical value of the temperature
-var unit = prompt("What is the Unit you would like to convert to:\n F for Fahrenheit or C for Celsius.");
-//the temperature unit
-if(unit == "C" || unit == "c"){
-    number = (number - 32) * 5 / 9;
-//if they enter a lower case or upper case C, it will still find the answer converting to Celsius
+var userName = "Bananaiscool";
+var userInput = prompt("Please log in with your Username");
+var password = "Pa55word";
+var passwordInput = prompt("Please enter in your password");
+
+if(userInput == userName){
+    if(passwordInput == password){
+        console.log("Welcome, " + userName + "!");
+    }else{
+        console.log("Password dose not match our records.");
+   }
 }else{
-    number = number * 9 / 5 + 32;
-//if they were to enter in a lower or upper case F it will still convert to F.
-}
-console.log("The temperature out side is " + number + " degrees " + unit + ".");
-//even if they hit the wrong letter (other then C), it will automatically convert to Fahrenheit.
+    console.log("User not found. Try again.");
+}   
