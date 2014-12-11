@@ -1,6 +1,14 @@
 //Devin Ingles 12/08/2014 Conditionals_Wacky
 
-var timeNow = prompt("W");
-var time;
+var job = prompt("Where do you work?");
+var hourly = prompt(" How much do you make an Hour?");
+var raise = prompt("How many years have you been at your job?");
 
-time = (timeNow > 9) ? "You should take a break and get some rest!!" : "Yeah, we still have time to work on homework!";
+raiseMade = (raise >= 2) ? "Congratulations, you get a raise!" : "Unfortunately, you have not worked at the company long enough for a raise.";
+console.log(raiseMade);
+
+if(raise >= 2){
+    alert("Because you have worked for " + job + " for " + raise + " years, you get a $1 raise added to your $" + hourly + " an hour.");
+}else{
+    alert("You have only been with " + job + " for less then 2 years, I am sorry, but you do not receive a raise.");
+}
