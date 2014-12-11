@@ -8,7 +8,7 @@ raiseMade = (raise >= 2) ? "Congratulations, you get a raise!" : "Unfortunately,
 console.log(raiseMade);
 
 if(raise >= 2){
-    alert("Because you have worked for " + job + " for " + raise + " years, you get a $1 raise added to your $" + hourly + " an hour.");
+    alert("Because you have worked for " + job + " for " + raise + " years, you get a $1 raise added to your $" + hourly + " an hour for a total of $" + hourly + 1 + ".");
 }else{
     alert("You have only been with " + job + " for less then 2 years, I am sorry, but you do not receive a raise.");
 }
