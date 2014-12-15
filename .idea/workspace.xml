@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c104397e-eda9-42dc-942d-1f80488a7905" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/index.html" afterPath="$PROJECT_DIR$/Functions/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions/js/script.js" afterPath="$PROJECT_DIR$/Functions/js/script.js" />
     </list>
     <ignored path="Ingles_Devin_WPF.iws" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/Functions/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="38" />
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -105,8 +104,8 @@
         <option value="$PROJECT_DIR$/Conditionals_Personal/js/script.js" />
         <option value="$PROJECT_DIR$/Conditionals_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/Functions/css/style.css" />
-        <option value="$PROJECT_DIR$/Functions/js/script.js" />
         <option value="$PROJECT_DIR$/Functions/index.html" />
+        <option value="$PROJECT_DIR$/Functions/js/script.js" />
       </list>
     </option>
   </component>
@@ -640,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
       </provider>
