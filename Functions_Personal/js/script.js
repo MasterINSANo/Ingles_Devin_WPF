@@ -11,4 +11,14 @@ var time; //Setting up for a ternary
 time = (naps >= 3 || napLength >= 60) ? "The Best time to put the baby to bed would be 9PM" : "You should lay them down to sleep at 8pm."; //added a logical operator to decide one or the other.
 console.log(time); //printing answer to console.log
 
+//The baby is out for the count, but what happens if they wake up?
 
+alert("Now what to do if the baby wakes up in the middle of the night?");
+var fed = prompt("Is the baby Breastfed or Bottle?");
+var stillAwake = prompt("Now that the baby is fed, are they still crying?");
+
+if(fed = Breastfed || breastfed){
+    console.log("Sit up and allow the baby to latch and feed. Rock if you can to help make them more sleepy");
+}else if(fed = Bottle){
+    console.log("Warm up a bottle and sit up while rocking and feeding your baby.");
+}
