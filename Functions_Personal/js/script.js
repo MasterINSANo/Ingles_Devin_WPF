@@ -14,13 +14,11 @@ console.log(time); //printing answer to console.log
 //The baby is out for the count, but what happens if they wake up?
 
 alert("Now what to do if the baby wakes up in the middle of the night?");
-var fed = prompt("Is the baby Breastfed or Bottle?");
-var stillAwake = prompt("Now that the baby is fed, are they still crying?");
 
-if(fed = Breastfed || breastfed){
+var feedTheBaby = prompt("Is the baby fed by Breast or Bottle?");
+
+if(feedTheBaby == ){
     console.log("Sit up and allow the baby to latch and feed. Rock if you can to help make them more sleepy");
-}else if(stillAwake = Yes){
-    console.log("If they are still awake after feeding, change their diaper then rock them asleep.");
 }else{
-    console.log("Heat up and feed them a bottle, then change their diaper if they are still awake.);
+    console.log("If they are still awake after feeding, change their diaper then rock them asleep.");
 }
