@@ -19,6 +19,8 @@ var stillAwake = prompt("Now that the baby is fed, are they still crying?");
 
 if(fed = Breastfed || breastfed){
     console.log("Sit up and allow the baby to latch and feed. Rock if you can to help make them more sleepy");
-}else if(fed = Bottle){
-    console.log("Warm up a bottle and sit up while rocking and feeding your baby.");
+}else if(stillAwake = Yes){
+    console.log("If they are still awake after feeding, change their diaper then rock them asleep.");
+}else{
+    console.log("Heat up and feed them a bottle, then change their diaper if they are still awake.);
 }
