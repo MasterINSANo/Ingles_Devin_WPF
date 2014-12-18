@@ -2,9 +2,9 @@
 
 //What time should you lay your baby down for bed.
 
-var naps = prompt("How many naps did your baby take during the day?");
+var naps = prompt("How many naps did your baby take during the day?"); //Adding user input to determine the best time to lay baby down to sleep at night.
 console.log(naps + " Nap(s).");
-var napLength = prompt("What is the average time your baby slept in minutes, per nap?");
+var napLength = prompt("What is the average time your baby slept in minutes, per nap?"); //seeing how long the baby sleeps through naps, determines if they would be able to sleep at 8 or 9pm.
 console.log("My baby slept an average of " + napLength + " Minutes per nap.");
 var time;
 
