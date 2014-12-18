@@ -31,4 +31,4 @@ if(math === "1"){
     console.log("Please buy the DLC to Console Quest Called,\nThe Next Quest to continue.");
 }//if you answered 1, you win the game! if you answered incorrectly, you die. If you didn't answer, you are required to buy the DLC to continue the quest.
 
-alert("Thank you for play")
+alert("Thank you for playing along. I really enjoyed taking this class, and I learned so much. Have a wonderful Holiday and a happy New Year!");

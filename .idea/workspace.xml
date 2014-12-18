@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c104397e-eda9-42dc-942d-1f80488a7905" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Wacky/js/script.js" afterPath="$PROJECT_DIR$/Functions_Wacky/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ingles_Devin_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.64790577" vertical-offset="0" max-vertical-offset="764">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <caret line="33" column="144" selection-start-line="33" selection-start-column="144" selection-end-line="33" selection-end-column="144" />
               <folding />
             </state>
           </provider>
@@ -647,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/Functions_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64790577" vertical-offset="0" max-vertical-offset="764">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <caret line="33" column="144" selection-start-line="33" selection-start-column="144" selection-end-line="33" selection-end-column="144" />
           <folding />
         </state>
       </provider>
