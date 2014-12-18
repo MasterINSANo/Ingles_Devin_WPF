@@ -15,7 +15,18 @@ if(sword === "Yes"){
 
 if(sword === "Yes"){
     math = prompt("If 5*5 is 25, what would be the opposite of 25*25?");
-    console.log("The Correct answer is 5! The opposite of 25*25 is 25/25, with the answer being 5!");
-}else if(sword === "no"){
+    console.log("The Correct answer is 1! The opposite of 25*25 is 25/25, with the answer being 1!");
+}else if(sword === "No"){
     console.log("A Robot Dinosaur cuts off your escape and then leaps toward you with mouth wide open, growling, with teeth sharp as a knife!");
+}else{
+    console.log("You think out loud to yourself, Did I remember to shut off the stove? As you continue down your dark path.");
+}
+
+
+if(math === 1){
+    console.log("You may keep this sword. But by accepting this sword, you are duty bound to save the lives of the innocence.");
+}else if(math === !1){
+    console.log("You gave an incorrect answer. Please return the sword and stand still while Robot Dinosaurs tear you limb from limb.");
+}else{
+    console.log("You stumble across a cat who seems to be hungry. Remembering that you happen to have your ham sandwich with you, you give the cat some of the ham.");
 }
