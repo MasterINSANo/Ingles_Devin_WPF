@@ -21,7 +21,7 @@ if(sword === "Yes"){
     console.log("A Robot Dinosaur cuts off your escape and then leaps toward you with mouth wide open, growling, with teeth sharp as a knife!\nYou are caught and you die, Game Over.");
 }else{
     console.log("You think out loud to yourself, Did I remember to shut off the stove?\nAs you continue down your dark path. Game Over");
-}//if you pulled the sword out, you must answer this riddle. If you looked at the sword and didn't pull it
+}//if you pulled the sword out, you must answer this riddle. If you looked at the sword and didn't pull it out, dinosaurs come to kill you. If you walked on by, you end the game for being boring.
 
 if(math === "1"){
     console.log("You Win!!!");
@@ -29,4 +29,6 @@ if(math === "1"){
     console.log("Incorrect answer, the stone blows up and kills you. Game Over.");
 }else{
     console.log("Please buy the DLC to Console Quest Called,\nThe Next Quest to continue.");
-}
+}//if you answered 1, you win the game! if you answered incorrectly, you die. If you didn't answer, you are required to buy the DLC to continue the quest.
+
+alert("Thank you for play")
